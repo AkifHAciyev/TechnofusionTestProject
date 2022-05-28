@@ -1,0 +1,80 @@
+body {
+	background-color: #282c34;
+}
+a {
+	color: antiquewhite;
+	text-decoration: none;
+}
+a:hover {
+	color: rgb(155, 199, 113);
+}
+
+.home {
+	width: 80vw;
+}
+
+.header_site {
+	background: linear-gradient(90deg, rgb(88, 72, 72), rgb(17, 13, 13));
+	width: 1510px;
+	font-size: 0.8em;
+	font-family: 'Gill Sans', 'Gill Sans MT';
+}
+.title_home {
+	display: flex;
+}
+.btn_get_id {
+	border-radius: 7px;
+	padding: 0.55em 1.5em;
+	border: 0.1em solid #0c0b0b;
+	margin: 0.9em 0em 0em 0em;
+	border-radius: 6px;
+	font-family: 'Times New Roman', Times, serif;
+	color: #1a1717;
+}
+.btn_get_id:hover {
+	color: rgb(155, 199, 113);
+	background-color: #685e96;
+}
+
+.btn {
+	padding: 0.5em 1em;
+	border: 0.1em solid #0c0b0b;
+	border-radius: 7px;
+	font-family: 'Times New Roman', Times, serif;
+	color: brown;
+	background-color: rgb(29, 41, 65);
+}
+.btn:hover {
+	color: #000000;
+	background-color: #685e96;
+}
+
+form {
+	display: grid;
+	justify-content: center;
+}
+h2 {
+	margin-left: 20px;
+}
+input {
+	border-radius: 6px;
+	font-family: 'Times New Roman', Times, serif;
+	color: #000000;
+}
+.div_input_form {
+	display: flex;
+}
+
+.pagination {
+	list-style: none;
+	display: flex;
+	justify-content: space-between;
+	padding: 0;
+}
+
+.page-item {
+	cursor: pointer;
+	border: 1px solid #fff;
+	padding: 1rem;
+	border-radius: 10px;
+}
